@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "754688579636",
+    "project_id": "feedback-emotion",
+    "storage_bucket": "feedback-emotion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754688579636:android:b0c32b05c64363535f1261",
+        "android_client_info": {
+          "package_name": "com.lampa.emotionrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754688579636-b0lj1g494f9srruanovg85vm2bum9ntc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lampa.emotionrecognition",
+            "certificate_hash": "751c3ee3c15290bd4f64dda216da611429c4ffcf"
+          }
+        },
+        {
+          "client_id": "754688579636-qbc3d5ii1deu2lqihr105o2hi9qjvqru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1zuxLmQxRPlB_l5wxV0xejtXKx2P0AgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754688579636-qbc3d5ii1deu2lqihr105o2hi9qjvqru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
