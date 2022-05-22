@@ -7,11 +7,11 @@ import androidx.core.content.FileProvider;
 
 // java package for graphics , img , widget
 import android.app.Activity;
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
+import android.content.Intent;// Message
+import android.graphics.Bitmap; // Object implements Parcelable
+import android.graphics.Canvas;// draw graphics in android.
 import android.graphics.Color;
-import android.graphics.Paint;
+import android.graphics.Paint; // used with canvas to draw objects
 import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
