@@ -35,6 +35,7 @@ import com.lampa.emotionrecognition.classifiers.TFLiteImageClassifier;
 import com.lampa.emotionrecognition.utils.ImageUtils;
 import com.lampa.emotionrecognition.utils.SortingHelper;
 
+// pie chart integrated using the GFG article
 import org.eazegraph.lib.charts.PieChart;
 import org.eazegraph.lib.models.PieModel;
 
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     private ExpandableListView mClassificationExpandableListView;
 
     private Uri mCurrentPhotoUri;
-
+    // variables for the pie chart
     int yes = 0;
     int no = 0;
 
@@ -408,14 +409,19 @@ public class MainActivity extends AppCompatActivity {
             List<Pair<String,String>> data = mClassificationResult.get(k);
             for(Pair<String,String> i : data){
                 if(i.first.equalsIgnoreCase("happy") || i.first.equalsIgnoreCase("neutral") || i.first.equalsIgnoreCase("surprise")){
+                    // pie chart distribution
+                    // here Yes is combination of happy face , surprised face and neutral face
+                    // addition of yes gives you the "how interactive your session"
                     String j = i.second.replace("%","");
                     j = j.replace(" ","");
                     yes = yes + (int)Float.parseFloat(j);
+                    // yes = sum of(happy + surprised + neutral)
                 }
                 else{
                     String j = i.second.replace("%","");
                     j = j.replace(" ","");
                     no = no + (int)Float.parseFloat(j);
+                    // no = sum of( other emotion than the yes)
                 }
             }
         }
