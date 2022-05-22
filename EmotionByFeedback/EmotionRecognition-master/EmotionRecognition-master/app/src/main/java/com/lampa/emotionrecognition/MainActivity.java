@@ -1,9 +1,11 @@
 package com.lampa.emotionrecognition;
 
+// java file related imports
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
+// java package for graphics , img , widget
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -23,6 +25,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+// firebase imports for the deep learning API
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -31,6 +34,8 @@ import com.google.firebase.ml.vision.common.FirebaseVisionImage;
 import com.google.firebase.ml.vision.face.FirebaseVisionFace;
 import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetector;
 import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetectorOptions;
+
+// separate classes
 import com.lampa.emotionrecognition.classifiers.TFLiteImageClassifier;
 import com.lampa.emotionrecognition.utils.ImageUtils;
 import com.lampa.emotionrecognition.utils.SortingHelper;
@@ -39,6 +44,7 @@ import com.lampa.emotionrecognition.utils.SortingHelper;
 import org.eazegraph.lib.charts.PieChart;
 import org.eazegraph.lib.models.PieModel;
 
+// basic java imports
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
