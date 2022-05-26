@@ -1,4 +1,4 @@
-#Thu May 26 10:36:00 IST 2022
+#Thu May 26 17:30:33 IST 2022
 base.0=/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

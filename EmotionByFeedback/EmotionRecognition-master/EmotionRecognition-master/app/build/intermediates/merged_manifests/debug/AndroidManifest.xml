@@ -28,7 +28,6 @@
         android:label="Expreefy-IT"
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.ExpreefyIT.FeedbackByEmtion.first_page"
