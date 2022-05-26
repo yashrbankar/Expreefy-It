@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/yashrbankar/Downloads/Structure/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/yashrbankar/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/yashrbankar/.gradle/caches/transforms-2/files-2.1/c157ed9dfabd412da3d3a32318eeb9f7/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

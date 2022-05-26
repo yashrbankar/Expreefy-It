@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">EmotionRecognition</string>
-    <string name="pick_image_button">Pick an image</string>
-    <string name="take_photo_button">Take a photo</string>
-    <string name="classification_delimiter_text_view">-</string>
-    <string name="face">Face</string>
-    <string name="faceless">No face detected</string>
-    <string name="feedback_byemotion" />
+    <string name="app_name" translatable="false">ExpreefyIt</string>
+    <string name="pick_image_button" translatable="false">Pick an image</string>
+    <string name="take_photo_button" translatable="false">Take a photo</string>
+    <string name="classification_delimiter_text_view" translatable="false">-</string>
+    <string name="face" translatable="false">Face</string>
+    <string name="faceless" translatable="false">No face detected</string>
+    <string name="feedback_byemotion" translatable="false" />
+    <string name="Info_feedback" translatable="false">Info Feedback</string>
 </resources>

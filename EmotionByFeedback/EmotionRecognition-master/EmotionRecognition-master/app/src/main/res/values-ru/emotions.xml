@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="emotions">
-        <item>злость</item>
-        <item>отвращение</item>
-        <item>страх</item>
-        <item>счастье</item>
-        <item>нейтрально</item>
-        <item>грусть</item>
-        <item>удивление</item>
+        <item>angry</item>
+        <item>disgust</item>
+        <item>fear</item>
+        <item>happy</item>
+        <item>neutral</item>
+        <item>sad</item>
+        <item>surprise</item>
     </string-array>
 </resources>

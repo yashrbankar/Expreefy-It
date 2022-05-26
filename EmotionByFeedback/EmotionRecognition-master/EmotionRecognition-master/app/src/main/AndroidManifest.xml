@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ExpreefyIT.emotionrecognition">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ExpreefyIT.FeedbackByEmtion">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
 
     <uses-feature
         android:name="android.hardware.camera2"
@@ -11,13 +13,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/feedback_byemotion"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="Expreefy-IT"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.ExpreefyIT.emotionrecognition.first_page"
+            android:name="com.ExpreefyIT.FeedbackByEmtion.first_page"
             android:exported="true">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -37,8 +39,8 @@
         </provider>
 
         <activity
-            android:name="com.ExpreefyIT.emotionrecognition.MainActivity"
-            android:screenOrientation="portrait">
+            android:name="com.ExpreefyIT.FeedbackByEmtion.MainActivity"
+            android:screenOrientation="fullSensor">
 
         </activity>
 
