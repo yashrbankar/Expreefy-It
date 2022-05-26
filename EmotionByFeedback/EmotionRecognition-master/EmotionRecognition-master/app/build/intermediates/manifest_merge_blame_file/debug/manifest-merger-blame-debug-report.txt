@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lampa.emotionrecognition"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:6:5-80
+11-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:7:5-8:40
+12-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:7:22-78
+13
+14    <uses-feature
+14-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:10:5-12:35
+15        android:name="android.hardware.camera2"
+15-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:11:9-48
+16        android:required="true" />
+16-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:12:9-32
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:22:5-79
+18-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:22:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:23:5-67
+19-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:23:22-64
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:24:5-68
+20-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+22
+23    <application
+23-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:14:5-54:19
+24        android:allowBackup="true"
+24-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:15:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.5.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/1119d1817ed035d5287598c5779f42c3/core-1.5.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher_foreground"
+27-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:16:9-54
+28        android:label="Expreefy-IT"
+28-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:17:9-36
+29        android:roundIcon="@mipmap/ic_launcher_foreground"
+29-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:18:9-59
+30        android:supportsRtl="true"
+30-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:19:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:20:9-40
+33        <activity
+33-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:21:9-29:40
+34            android:name="com.ExpreefyIT.FeedbackByEmtion.first_page"
+34-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:22:13-70
+35            android:exported="true" >
+35-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:23:13-36
+36            <intent-filter>
+36-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:24:13-29:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:13-65
+37-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:13-73
+39-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:23-70
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+44            android:name="androidx.core.content.FileProvider"
+44-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:32:13-62
+45            android:authorities="com.lampa.emotionrecognition.fileprovider"
+45-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:33:13-64
+46            android:exported="false"
+46-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:34:13-37
+47            android:grantUriPermissions="true" >
+47-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:35:13-47
+48            <meta-data
+48-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:36:13-38:54
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:37:17-67
+50                android:resource="@xml/file_paths" />
+50-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:38:17-51
+51        </provider>
+52
+53        <activity
+53-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:41:9-45:20
+54            android:name="com.ExpreefyIT.FeedbackByEmtion.MainActivity"
+54-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:42:13-72
+55            android:screenOrientation="fullSensor" >
+55-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:43:13-51
+56        </activity>
+57
+58        <meta-data
+58-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:47:9-49:36
+59            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+59-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:48:13-70
+60            android:value="face" />
+60-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:49:13-33
+61        <meta-data
+61-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:50:9-52:57
+62            android:name="preloaded_fonts"
+62-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:51:13-43
+63            android:resource="@array/preloaded_fonts" />
+63-->/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:52:13-54
+64
+65        <service
+65-->[com.google.firebase:firebase-ml-vision:24.0.3] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/97fddb14575d460c293a7dce4965d439/jetified-firebase-ml-vision-24.0.3/AndroidManifest.xml:9:9-15:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[com.google.firebase:firebase-ml-vision:24.0.3] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/97fddb14575d460c293a7dce4965d439/jetified-firebase-ml-vision-24.0.3/AndroidManifest.xml:10:13-84
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:19.3.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f139abe65a019d2a9d8fcf005ec07900/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+68            android:exported="false" >
+68-->[com.google.firebase:firebase-ml-vision:24.0.3] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/97fddb14575d460c293a7dce4965d439/jetified-firebase-ml-vision-24.0.3/AndroidManifest.xml:11:13-37
+69            <meta-data
+69-->[com.google.firebase:firebase-ml-vision:24.0.3] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/97fddb14575d460c293a7dce4965d439/jetified-firebase-ml-vision-24.0.3/AndroidManifest.xml:12:13-14:85
+70                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+70-->[com.google.firebase:firebase-ml-vision:24.0.3] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/97fddb14575d460c293a7dce4965d439/jetified-firebase-ml-vision-24.0.3/AndroidManifest.xml:13:17-108
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-ml-vision:24.0.3] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/97fddb14575d460c293a7dce4965d439/jetified-firebase-ml-vision-24.0.3/AndroidManifest.xml:14:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-ml-common:22.1.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/a59d87d6dde037b6c5ae4e5d28def22e/jetified-firebase-ml-common-22.1.1/AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+73-->[com.google.firebase:firebase-ml-common:22.1.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/a59d87d6dde037b6c5ae4e5d28def22e/jetified-firebase-ml-common-22.1.1/AndroidManifest.xml:12:17-117
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-ml-common:22.1.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/a59d87d6dde037b6c5ae4e5d28def22e/jetified-firebase-ml-common-22.1.1/AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+76                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+76-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-installations:16.2.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/116a64d852d068a2ee934c8ffcf29866/jetified-firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+79                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+79-->[com.google.firebase:firebase-installations:16.2.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/116a64d852d068a2ee934c8ffcf29866/jetified-firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-installations:16.2.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/116a64d852d068a2ee934c8ffcf29866/jetified-firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+81        </service>
+82
+83        <receiver
+83-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+84            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+84-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+85            android:exported="true"
+85-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+86            android:permission="com.google.android.c2dm.permission.SEND" >
+86-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+87            <intent-filter>
+87-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+88                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+88-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+88-->[com.google.firebase:firebase-iid:20.1.5] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/6a39ced408b1a1d42c9653c6daabf879/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+89            </intent-filter>
+90        </receiver>
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/5b312e73d2bbc24e4c49f69acd5f7cd5/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/5b312e73d2bbc24e4c49f69acd5f7cd5/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/5b312e73d2bbc24e4c49f69acd5f7cd5/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/5b312e73d2bbc24e4c49f69acd5f7cd5/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+96
+97        <provider
+97-->[com.google.firebase:firebase-common:19.3.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f139abe65a019d2a9d8fcf005ec07900/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+98            android:name="com.google.firebase.provider.FirebaseInitProvider"
+98-->[com.google.firebase:firebase-common:19.3.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f139abe65a019d2a9d8fcf005ec07900/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+99            android:authorities="com.lampa.emotionrecognition.firebaseinitprovider"
+99-->[com.google.firebase:firebase-common:19.3.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f139abe65a019d2a9d8fcf005ec07900/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+100            android:exported="false"
+100-->[com.google.firebase:firebase-common:19.3.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f139abe65a019d2a9d8fcf005ec07900/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+101            android:initOrder="100" />
+101-->[com.google.firebase:firebase-common:19.3.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f139abe65a019d2a9d8fcf005ec07900/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+102
+103        <meta-data
+103-->[com.google.android.gms:play-services-basement:17.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e116de0d8066428de8171ea8a0a4b185/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.android.gms:play-services-basement:17.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e116de0d8066428de8171ea8a0a4b185/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+105            android:value="@integer/google_play_services_version" />
+105-->[com.google.android.gms:play-services-basement:17.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e116de0d8066428de8171ea8a0a4b185/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+106    </application>
+107
+108</manifest>
