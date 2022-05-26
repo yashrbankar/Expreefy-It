@@ -1,9 +1,5 @@
 package com.ExpreefyIT.FeedbackByEmtion;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.FileProvider;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -15,6 +11,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +21,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.FileProvider;
+
+import com.ExpreefyIT.FeedbackByEmtion.classifiers.TFLiteImageClassifier;
+import com.ExpreefyIT.FeedbackByEmtion.utils.ImageUtils;
+import com.ExpreefyIT.FeedbackByEmtion.utils.SortingHelper;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -32,9 +36,6 @@ import com.google.firebase.ml.vision.common.FirebaseVisionImage;
 import com.google.firebase.ml.vision.face.FirebaseVisionFace;
 import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetector;
 import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetectorOptions;
-import com.ExpreefyIT.FeedbackByEmtion.classifiers.TFLiteImageClassifier;
-import com.ExpreefyIT.FeedbackByEmtion.utils.ImageUtils;
-import com.ExpreefyIT.FeedbackByEmtion.utils.SortingHelper;
 
 import org.eazegraph.lib.charts.PieChart;
 import org.eazegraph.lib.models.PieModel;
@@ -420,6 +421,23 @@ public class MainActivity extends AppCompatActivity {
                     j = j.replace(" ","");
                     notEnjoyed = notEnjoyed + (int)Float.parseFloat(j);
                 }
+            }
+            TextView responses = findViewById(R.id.messege);
+
+            int finalResult = (yesEnjoyed/(yesEnjoyed + notEnjoyed))*100;
+
+            Log.d("hello !!",Integer.toString(yesEnjoyed));
+
+            if(finalResult<35)
+            {
+                responses.setText("Result : " + "" + finalResult);
+            }else
+            if(finalResult<70)
+            {    responses.setText("Result : "+ (finalResult));
+            }else
+            if(finalResult<100)
+            {
+                responses.setText("Result : "+ (finalResult));
             }
         }
 
