@@ -1109,6 +1109,7 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color light
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1763,7 +1764,11 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_camera_alt_24
+drawable ic_baseline_insert_photo_24
+drawable ic_button_bg
 drawable ic_clock_black_24dp
+drawable ic_first
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2051,6 +2056,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id message
+id messege
 id middle
 id mini
 id month_grid
@@ -3018,6 +3024,7 @@ style ThemeOverlay_AppCompat_DayNight_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
+style ThemeOverlay_AppTheme_TextInputEditText_Outlined
 style ThemeOverlay_Design_TextInputEditText
 style ThemeOverlay_MaterialComponents
 style ThemeOverlay_MaterialComponents_ActionBar

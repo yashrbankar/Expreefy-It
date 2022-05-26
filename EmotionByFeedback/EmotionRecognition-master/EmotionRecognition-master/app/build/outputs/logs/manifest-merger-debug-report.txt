@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:31:9-39:20
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:31:9-39:20
 	android:grantUriPermissions
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:35:13-47
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:35:13-47
 	android:authorities
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:33:13-64
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:33:13-64
 	android:exported
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:34:13-37
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:32:13-62
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:32:13-62
 manifest
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
 MERGED from [com.google.android.material:material:1.4.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e71329718c084ca993f49eb5ea068c3d/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f3ee0da2677487602684c5050625344f/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/c157ed9dfabd412da3d3a32318eeb9f7/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -71,43 +71,43 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/yashrbankar
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/0341dc7a909f0aaa8b8341b00649253e/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/635c516289e61ddece6defd382a9b836/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/28d6b654d214e4477c47e1c32f8272c7/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:4:5-46
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:4:5-46
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:1-56:12
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:6:5-80
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:6:22-77
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:7:5-8:40
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:7:5-8:40
 	tools:ignore
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:8:9-37
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:8:9-37
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:7:22-78
 uses-feature#android.hardware.camera2
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:10:5-12:35
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:10:5-12:35
 	android:required
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:12:9-32
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:12:9-32
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:11:9-48
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:11:9-48
 application
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:14:5-54:19
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:14:5-54:19
 MERGED from [com.google.android.material:material:1.4.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e71329718c084ca993f49eb5ea068c3d/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e71329718c084ca993f49eb5ea068c3d/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f3ee0da2677487602684c5050625344f/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -155,55 +155,55 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yashr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/1119d1817ed035d5287598c5779f42c3/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:17:9-36
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:17:9-36
 	android:roundIcon
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:18:9-59
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:18:9-59
 	android:icon
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:16:9-54
 	android:allowBackup
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:20:9-40
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:20:9-40
 activity#com.ExpreefyIT.FeedbackByEmtion.first_page
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:21:9-29:40
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:21:9-29:40
 	android:exported
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:22:13-70
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:22:13-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:24:13-29:29
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:24:13-29:29
 action#android.intent.action.MAIN
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:13-65
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:21-62
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:13-73
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:13-73
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:23-70
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:23-70
 activity#com.ExpreefyIT.FeedbackByEmtion.MainActivity
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:41:9-45:20
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:41:9-45:20
 	android:screenOrientation
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:43:13-51
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:43:13-51
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:42:13-72
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:42:13-72
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:47:9-49:36
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:47:9-49:36
 	android:value
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:49:13-33
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:49:13-33
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:48:13-70
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:48:13-70
 meta-data#preloaded_fonts
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:50:9-52:57
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:50:9-52:57
 	android:resource
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:52:13-54
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:52:13-54
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:51:13-43
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:51:13-43
 uses-sdk
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.4.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e71329718c084ca993f49eb5ea068c3d/material-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/e71329718c084ca993f49eb5ea068c3d/material-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/f3ee0da2677487602684c5050625344f/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
@@ -316,24 +316,24 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yashrbankar/.gradle
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/635c516289e61ddece6defd382a9b836/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/28d6b654d214e4477c47e1c32f8272c7/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/28d6b654d214e4477c47e1c32f8272c7/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		MERGED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		MERGED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		MERGED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		MERGED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:36:13-38:54
+ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:36:13-38:54
 	android:resource
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:38:17-51
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:38:17-51
 	android:name
-		ADDED from /home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/src/main/AndroidManifest.xml:37:17-67
+		ADDED from /home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/AndroidManifest.xml:37:17-67
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-ml-vision:24.0.3] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/97fddb14575d460c293a7dce4965d439/jetified-firebase-ml-vision-24.0.3/AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /home/yashrbankar/.gradle/caches/transforms-2/files-2.1/a59d87d6dde037b6c5ae4e5d28def22e/jetified-firebase-ml-common-22.1.1/AndroidManifest.xml:8:9-14:19

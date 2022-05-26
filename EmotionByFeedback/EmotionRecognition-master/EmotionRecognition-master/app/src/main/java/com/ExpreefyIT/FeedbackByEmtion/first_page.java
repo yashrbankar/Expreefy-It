@@ -10,10 +10,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.textfield.TextInputEditText;
+
 public class first_page extends AppCompatActivity {
 
     private Button next;
-    private EditText et1,et2,et3;
+    private TextInputEditText et1, et2, et3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
