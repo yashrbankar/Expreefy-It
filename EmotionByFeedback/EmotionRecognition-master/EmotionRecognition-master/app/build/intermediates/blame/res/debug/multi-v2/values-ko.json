@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/yashrbankar/Downloads/S-contribution/FeedEmo_0/EmotionRecognition-master/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/home/yashrbankar/.gradle/caches/transforms-2/files-2.1/5b312e73d2bbc24e4c49f69acd5f7cd5/jetified-play-services-base-17.0.0/res/values-ko/values.xml",

@@ -16,6 +16,7 @@ import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ExpandableListView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -31,6 +32,7 @@ import com.ExpreefyIT.FeedbackByEmtion.utils.SortingHelper;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.BuildConfig;
 import com.google.firebase.ml.vision.FirebaseVision;
 import com.google.firebase.ml.vision.common.FirebaseVisionImage;
 import com.google.firebase.ml.vision.face.FirebaseVisionFace;
@@ -49,7 +51,8 @@ import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-  // contribution
+
+// contribution
 public class MainActivity extends AppCompatActivity {
 
     private static final int GALLERY_REQUEST_CODE = 0;
@@ -65,18 +68,19 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView mImageView;
 
-    private Button mPickImageButton;
-    private Button mTakePhotoButton;
+    private ImageButton mPickImageButton;
+    private ImageButton mTakePhotoButton;
     private ExpandableListView mClassificationExpandableListView;
 
     private Uri mCurrentPhotoUri;
 
     int yesEnjoyed = 0;
-    int notEnjoyed= 0;
+    int notEnjoyed = 0;
 
 
     private Map<String, List<Pair<String, String>>> mClassificationResult;
     private PieChart pieChart;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -146,8 +150,8 @@ public class MainActivity extends AppCompatActivity {
                     processImageRequestResult(mCurrentPhotoUri);
                     break;
                 default:
-                       break;
-                                }
+                    break;
+            }
         }
     }
 
@@ -332,7 +336,7 @@ public class MainActivity extends AppCompatActivity {
                                                 faceId++;
                                             }
                                             faceId--;
-                                              no_of_faces.setText("Responses" + Integer.toString(faceId));
+                                            no_of_faces.setText("Responses" + Integer.toString(faceId));
                                             // Set the image with the face designations
                                             mImageView.setImageBitmap(tmpBitmap);
 
@@ -355,11 +359,11 @@ public class MainActivity extends AppCompatActivity {
 
                                             pieChart.startAnimation();
 
-                                        // If single face, then immediately open the list
+                                            // If single face, then immediately open the list
                                             if (faces.size() == 1) {
                                                 mClassificationExpandableListView.expandGroup(0);
                                             }
-                                        // If no faces are found
+                                            // If no faces are found
                                         } else {
                                             Toast.makeText(
                                                     MainActivity.this,
@@ -403,41 +407,35 @@ public class MainActivity extends AppCompatActivity {
         String groupName = getString(R.string.face) + " " + faceId;
         mClassificationResult.put(groupName, faceGroup);
 
-                yesEnjoyed=0;
-                notEnjoyed=0;
-        for(String k : mClassificationResult.keySet())
-        {
+        yesEnjoyed = 0;
+        notEnjoyed = 0;
+        for (String k : mClassificationResult.keySet()) {
 
 
-            List<Pair<String,String>> data = mClassificationResult.get(k);
-            for(Pair<String,String> i : data){
-                if(i.first.equalsIgnoreCase("happy") || i.first.equalsIgnoreCase("neutral") || i.first.equalsIgnoreCase("surprise")){
-                    String j = i.second.replace("%","");
-                    j = j.replace(" ","");
-                    yesEnjoyed = yesEnjoyed + (int)Float.parseFloat(j);
-                }
-                else{
-                    String j = i.second.replace("%","");
-                    j = j.replace(" ","");
-                    notEnjoyed = notEnjoyed + (int)Float.parseFloat(j);
+            List<Pair<String, String>> data = mClassificationResult.get(k);
+            for (Pair<String, String> i : data) {
+                if (i.first.equalsIgnoreCase("happy") || i.first.equalsIgnoreCase("neutral") || i.first.equalsIgnoreCase("surprise")) {
+                    String j = i.second.replace("%", "");
+                    j = j.replace(" ", "");
+                    yesEnjoyed = yesEnjoyed + (int) Float.parseFloat(j);
+                } else {
+                    String j = i.second.replace("%", "");
+                    j = j.replace(" ", "");
+                    notEnjoyed = notEnjoyed + (int) Float.parseFloat(j);
                 }
             }
             TextView responses = findViewById(R.id.messege);
 
-            int finalResult = (yesEnjoyed/(yesEnjoyed + notEnjoyed))*100;
+            int finalResult = (yesEnjoyed / (yesEnjoyed + notEnjoyed)) * 100;
 
-            Log.d("hello !!",Integer.toString(yesEnjoyed));
+            Log.d("hello !!", Integer.toString(yesEnjoyed));
 
-            if(finalResult<35)
-            {
+            if (finalResult < 35) {
                 responses.setText("Result : " + "" + finalResult);
-            }else
-            if(finalResult<70)
-            {    responses.setText("Result : "+ (finalResult));
-            }else
-            if(finalResult<100)
-            {
-                responses.setText("Result : "+ (finalResult));
+            } else if (finalResult < 70) {
+                responses.setText("Result : " + (finalResult));
+            } else if (finalResult < 100) {
+                responses.setText("Result : " + (finalResult));
             }
         }
 
