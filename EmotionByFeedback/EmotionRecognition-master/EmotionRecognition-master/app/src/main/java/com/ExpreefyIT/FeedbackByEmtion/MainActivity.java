@@ -22,7 +22,6 @@ import androidx.core.content.FileProvider;
 import com.ExpreefyIT.FeedbackByEmtion.classifiers.TFLiteImageClassifier;
 import com.ExpreefyIT.FeedbackByEmtion.utils.ImageUtils;
 import com.ExpreefyIT.FeedbackByEmtion.utils.SortingHelper;
-import com.google.firebase.BuildConfig;
 
 import java.io.File;
 import java.io.IOException;
@@ -168,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
             if (photoFile != null) {
                 mCurrentPhotoUri = FileProvider.getUriForFile(
                         this,
-                        BuildConfig.APPLICATION_ID + ".fireproof",
+                        BuildConfig.APPLICATION_ID + ".fileprovider",
                         photoFile);
 
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, mCurrentPhotoUri);
