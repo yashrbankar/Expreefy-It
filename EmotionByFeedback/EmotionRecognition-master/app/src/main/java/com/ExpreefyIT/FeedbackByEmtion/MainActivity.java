@@ -207,7 +207,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
     private Bitmap getScaledImageBitmap(Uri imageUri) {
         Bitmap scaledImageBitmap = null;
 
