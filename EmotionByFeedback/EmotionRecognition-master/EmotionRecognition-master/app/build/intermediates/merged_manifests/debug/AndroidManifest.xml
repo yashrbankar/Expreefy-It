@@ -52,7 +52,7 @@
 
         <activity
             android:name="com.ExpreefyIT.FeedbackByEmtion.MainActivity"
-            android:screenOrientation="fullSensor" >
+            android:screenOrientation="nosensor" >
         </activity>
 
         <meta-data

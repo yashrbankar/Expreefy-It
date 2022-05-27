@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
+            "outputFile": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
             "map": [
-                {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values-ru/emotions.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "10",
-                        "endColumns": "19",
-                        "endOffsets": "298"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endLines": "10",
-                        "endColumns": "19",
-                        "endOffsets": "348"
-                    }
-                },
                 {
                     "source": "/home/yashrbankar/.gradle/caches/transforms-2/files-2.1/1119d1817ed035d5287598c5779f42c3/core-1.5.0/res/values-ru/values-ru.xml",
                     "from": {
@@ -71,6 +52,25 @@
                         "startOffsets": "3761,3870,4068,4196,4308,4509,4640,4785,5134,5374,5483,5677,5805,6031,6219,6318,6408",
                         "endColumns": "108,197,127,111,200,130,144,132,239,108,193,127,225,187,98,89,114",
                         "endOffsets": "3865,4063,4191,4303,4504,4635,4780,4913,5369,5478,5672,5800,6026,6214,6313,6403,6518"
+                    }
+                },
+                {
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values-ru/emotions.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "19",
+                        "endOffsets": "298"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endLines": "10",
+                        "endColumns": "19",
+                        "endOffsets": "348"
                     }
                 },
                 {

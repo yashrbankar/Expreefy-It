@@ -1,23 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values/ic_launcher_background.xml",
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values/font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,401",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,396,538"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,496",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,491,633"
+                    }
+                },
+                {
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values/emotions.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
+                        "endLines": "10",
+                        "endColumns": "19",
+                        "endOffsets": "298"
                     },
                     "to": {
-                        "startLines": "513",
+                        "startLines": "16",
                         "startColumns": "4",
-                        "startOffsets": "25968",
-                        "endColumns": "56",
-                        "endOffsets": "26020"
+                        "startOffsets": "638",
+                        "endLines": "24",
+                        "endColumns": "19",
+                        "endOffsets": "881"
                     }
                 },
                 {
@@ -150,42 +171,6 @@
                     }
                 },
                 {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,714",
-                        "endColumns": "143,81,103,108,119,99,76",
-                        "endOffsets": "194,276,380,489,609,709,786"
-                    },
-                    "to": {
-                        "startLines": "1166,1174,1175,1176,1177,1178,1243",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "69836,70643,70725,70829,70938,71058,81697",
-                        "endColumns": "143,81,103,108,119,99,76",
-                        "endOffsets": "69975,70720,70824,70933,71053,71153,81769"
-                    }
-                },
-                {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "2,12",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,384",
-                        "endLines": "10,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "378,531"
-                    },
-                    "to": {
-                        "startLines": "1263,4002",
-                        "startColumns": "4,4",
-                        "startOffsets": "83116,266536",
-                        "endLines": "1271,4004",
-                        "endColumns": "12,12",
-                        "endOffsets": "83477,266683"
-                    }
-                },
-                {
                     "source": "/home/yashrbankar/.gradle/caches/transforms-2/files-2.1/9b4ed169398f9fc52a61610b1c6d0a98/recyclerview-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -205,7 +190,7 @@
                     }
                 },
                 {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values/strings.xml",
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "8,1,4,5,6,7,2,3",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -260,22 +245,73 @@
                     }
                 },
                 {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values/emotions.xml",
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "5,4,2,3,7,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "199,153,55,102,278,238",
+                        "endColumns": "38,45,46,50,39,39",
+                        "endOffsets": "233,194,97,148,313,273"
+                    },
+                    "to": {
+                        "startLines": "444,457,458,459,514,557",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "21120,22049,22095,22142,26025,28840",
+                        "endColumns": "38,45,46,50,39,39",
+                        "endOffsets": "21154,22090,22137,22188,26060,28875"
+                    }
+                },
+                {
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values/preloaded_fonts.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "10",
-                        "endColumns": "19",
-                        "endOffsets": "298"
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "185"
                     },
                     "to": {
-                        "startLines": "16",
+                        "startLines": "25",
                         "startColumns": "4",
-                        "startOffsets": "638",
-                        "endLines": "24",
-                        "endColumns": "19",
-                        "endOffsets": "881"
+                        "startOffsets": "886",
+                        "endLines": "28",
+                        "endColumns": "12",
+                        "endOffsets": "1016"
+                    }
+                },
+                {
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values/ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "513",
+                        "startColumns": "4",
+                        "startOffsets": "25968",
+                        "endColumns": "56",
+                        "endOffsets": "26020"
+                    }
+                },
+                {
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,714",
+                        "endColumns": "143,81,103,108,119,99,76",
+                        "endOffsets": "194,276,380,489,609,709,786"
+                    },
+                    "to": {
+                        "startLines": "1166,1174,1175,1176,1177,1178,1243",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "69836,70643,70725,70829,70938,71058,81697",
+                        "endColumns": "143,81,103,108,119,99,76",
+                        "endOffsets": "69975,70720,70824,70933,71053,71153,81769"
                     }
                 },
                 {
@@ -315,58 +351,22 @@
                     }
                 },
                 {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values/colors.xml",
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "5,4,2,3,7,6",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "199,153,55,102,278,238",
-                        "endColumns": "38,45,46,50,39,39",
-                        "endOffsets": "233,194,97,148,313,273"
+                        "startLines": "2,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,384",
+                        "endLines": "10,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "378,531"
                     },
                     "to": {
-                        "startLines": "444,457,458,459,514,557",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "21120,22049,22095,22142,26025,28840",
-                        "endColumns": "38,45,46,50,39,39",
-                        "endOffsets": "21154,22090,22137,22188,26060,28875"
-                    }
-                },
-                {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values/preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "185"
-                    },
-                    "to": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "886",
-                        "endLines": "28",
-                        "endColumns": "12",
-                        "endOffsets": "1016"
-                    }
-                },
-                {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/src/main/res/values/font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,401",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,396,538"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,496",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,491,633"
+                        "startLines": "1263,4002",
+                        "startColumns": "4,4",
+                        "startOffsets": "83116,266536",
+                        "endLines": "1271,4004",
+                        "endColumns": "12,12",
+                        "endOffsets": "83477,266683"
                     }
                 },
                 {

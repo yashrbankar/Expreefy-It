@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master_final/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
+            "outputFile": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
             "map": [
                 {
                     "source": "/home/yashrbankar/.gradle/caches/transforms-2/files-2.1/1119d1817ed035d5287598c5779f42c3/core-1.5.0/res/values-si/values-si.xml",
