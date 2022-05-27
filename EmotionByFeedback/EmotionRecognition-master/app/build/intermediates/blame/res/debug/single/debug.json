@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_baseline_insert_photo_24.png.flat",
-        "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_baseline_insert_photo_24.png"
-    },
-    {
         "merged": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_baseline_camera_alt_24.png.flat",
         "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_camera_alt_24.png"
+    },
+    {
+        "merged": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_baseline_insert_photo_24.png.flat",
+        "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_baseline_insert_photo_24.png"
     },
     {
         "merged": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_camera_alt_24.png.flat",

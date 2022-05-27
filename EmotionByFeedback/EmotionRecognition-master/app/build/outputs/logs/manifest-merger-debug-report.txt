@@ -157,7 +157,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yashr
 	android:supportsRtl
 		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:17:9-36
+		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:17:9-34
 	android:roundIcon
 		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:18:9-59
 	android:icon
@@ -175,17 +175,17 @@ ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/Emotion
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:24:13-29:29
 action#android.intent.action.MAIN
-ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:13-65
+ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:21-62
+		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:13-73
+ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:23-70
+		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.ExpreefyIT.FeedbackByEmtion.MainActivity
 ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:41:9-45:20
 	android:screenOrientation
-		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:43:13-51
+		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:43:13-49
 	android:name
 		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:42:13-72
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES

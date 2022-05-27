@@ -2211,6 +2211,7 @@ id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
+id text1
 id text2
 id textEnd
 id textSpacerNoButtons
@@ -2247,6 +2248,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id view1
+id view2
 id view_offset_helper
 id visible
 id wide
