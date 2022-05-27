@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
+            "outputFile": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
             "map": [
                 {
-                    "source": "/home/yashrbankar/Downloads/R-version/EmotionRecognition-master/app/src/main/res/values-ru/emotions.xml",
+                    "source": "/home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/res/values-ru/emotions.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
