@@ -149,6 +149,8 @@
                             <View
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
+                                android:visibility="gone"
+                                android:id="@+id/view1"
                                 android:background="@color/orange"
                                 />
 
@@ -156,6 +158,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="no"
+                                android:id="@+id/text1"
+                                android:visibility="gone"
                                 android:layout_marginStart="16dp"
                                 />
 
@@ -175,14 +179,17 @@
 
                             <View
                                 android:layout_width="25dp"
-                                android:layout_height="25dp"
-                                android:background="@color/green"
-                                />
+                                android:layout_height="match_parent"
+                                android:id="@+id/view2"
+                               android:visibility="gone"
+                                android:background="@color/green" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="no"
+                                android:id="@+id/text2"
+                                android:visibility="gone"
                                 android:layout_marginStart="16dp"
                                 />
 
@@ -201,6 +208,7 @@
                     android:gravity="top"
                     android:text="144"
                     android:textSize="20dp"
+                    android:visibility="gone"
                     android:textStyle="bold"
                     android:background="@drawable/ic_button_bg"
                     android:layout_gravity="center"

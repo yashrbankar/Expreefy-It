@@ -14,7 +14,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_foreground"
-        android:label="Expreefy-IT"
+        android:label="Review It"
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -22,9 +22,9 @@
             android:name="com.ExpreefyIT.FeedbackByEmtion.first_page"
             android:exported="true">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
 
             </intent-filter></activity>
 
@@ -40,7 +40,7 @@
 
         <activity
             android:name="com.ExpreefyIT.FeedbackByEmtion.MainActivity"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="nosensor">
 
         </activity>
 
