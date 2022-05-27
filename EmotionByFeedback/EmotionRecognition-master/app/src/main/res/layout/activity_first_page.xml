@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".first_page"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_first"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXPREEFY It"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="true"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="false"
+                android:hint="Organization Name"
+                android:tooltipText="Full Name"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Pfull_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:maxLength="18"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Event Topic"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Pphone_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/et1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Organizer Name"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/PemailID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/Pupdate_detail_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

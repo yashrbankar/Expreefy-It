@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EmotionRecognition-master.iml" filepath="$PROJECT_DIR$/.idea/EmotionRecognition-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yashrbankar.iml" filepath="$PROJECT_DIR$/.idea/modules/yashrbankar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/yashrbankar.app.unitTest.iml" />
     </modules>
   </component>
 </project>
