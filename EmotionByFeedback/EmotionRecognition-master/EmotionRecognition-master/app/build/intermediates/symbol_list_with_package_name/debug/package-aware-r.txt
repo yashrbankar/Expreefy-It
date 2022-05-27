@@ -1106,6 +1106,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -1197,6 +1198,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark

@@ -509,6 +509,7 @@
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="green">#43A047</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="ic_launcher_background">#141515</color>
@@ -535,6 +536,7 @@
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="orange">#FF6534</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
