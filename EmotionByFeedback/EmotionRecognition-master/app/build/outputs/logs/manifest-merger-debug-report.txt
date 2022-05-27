@@ -157,7 +157,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/yashr
 	android:supportsRtl
 		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:17:9-34
+		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:17:9-36
 	android:roundIcon
 		ADDED from /home/yashrbankar/Downloads/EmotionFeedback/EmotionByFeedback/EmotionRecognition-master/app/src/main/AndroidManifest.xml:18:9-59
 	android:icon
