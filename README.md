@@ -18,6 +18,7 @@
 * Open EmotionRecognition-master Folder in Android Studio.
 
 ### Possible Error During Setup
+
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank" rel="noreferrer noopener" >
 <img src="r-img/download.png" alt="download" height="125" width="160" >
  </img>
