@@ -14,7 +14,7 @@
 * Open EmotionRecognition-master Folder in Android Studio.
 
 #### 2. Using Zip file (Method 2)
-<a href="[yashrbankar.netlify.app](https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/)/" target="_blank">Download Zip file</a>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank">Download Zip file</a>
 * Open EmotionRecognition-master Folder in Android Studio.
 
 ### Possible Error During Setup
