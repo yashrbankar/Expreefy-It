@@ -11,10 +11,16 @@
   $ git clone https://github.com/yashrbankar/Microsoft-Engage22.git
   $ cd EmotionRecognition-master
 ```
-* Open EmotionRecognition-master.
+* Open EmotionRecognition-master Folder in Android Studio.
 
 #### 2. Using Zip file (Method 2)
-</a>
-<a href="#" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
+<a href="yashrbankar.netlify.app/" target="_blank">Download Zip file</a>
+* Open EmotionRecognition-master Folder in Android Studio.
+
+### Possible Error During Setup
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank" rel="noreferrer noopener" >
+<img src="r-img/download.png" alt="download" height="125" width="160" >
+ </img>
+ </a>
+ 
+ 
