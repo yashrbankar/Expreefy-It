@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_first_page.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/expandable_list_group_classification.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/expandable_list_item_classification.xml" value="0.35625" />
       </map>
     </option>
   </component>

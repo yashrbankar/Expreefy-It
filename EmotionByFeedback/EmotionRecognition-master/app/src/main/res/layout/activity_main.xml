@@ -119,17 +119,16 @@
                     >
 
                     <TextView
-                        android:layout_marginTop="16dp"
                         android:id="@+id/no_of_face"
-                        android:layout_width="0dp"
+                        android:layout_width="61dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:layout_weight="0.5"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="0.7"
                         android:gravity="bottom"
                         android:text=""
                         android:textSize="20dp"
-                        android:textStyle="bold"
-                        />
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -151,16 +150,15 @@
                                 android:layout_height="25dp"
                                 android:visibility="gone"
                                 android:id="@+id/view1"
-                                android:background="@color/orange"
-                                />
+                               android:background="@color/green" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="no"
+                                android:text="Well Done"
                                 android:id="@+id/text1"
                                 android:visibility="gone"
-                                android:layout_marginStart="16dp"
+                                android:layout_marginStart="10dp"
                                 />
 
                         </LinearLayout>
@@ -179,18 +177,18 @@
 
                             <View
                                 android:layout_width="25dp"
-                                android:layout_height="match_parent"
+                                android:layout_height="25dp"
                                 android:id="@+id/view2"
                                android:visibility="gone"
-                                android:background="@color/green" />
+                                android:background="@color/orange" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="no"
+                                android:text="Needs Improvement"
                                 android:id="@+id/text2"
                                 android:visibility="gone"
-                                android:layout_marginStart="16dp"
+                                android:layout_marginStart="10dp"
                                 />
 
                         </LinearLayout>
