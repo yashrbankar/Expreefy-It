@@ -36,11 +36,23 @@
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank">~~~**Download App**~~~</a>
 
 
+# Flow of the Application 
 
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank" rel="noreferrer noopener" >
-<img src="" alt="download" height="125" width="160" >
+<img src="r-img/flowchart.png" alt="download">
  </img>
  </a>
+ 
+ 
+ 
+ # GIF Feature
+ 
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `TensorFlow` | `Lite` | **Required**. For Face Recognition |
+| `FireBase` | `ml api` | **Required**. for Emotion dectection (Deep learning)|
+
+
  
  
  
