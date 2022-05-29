@@ -160,6 +160,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Function to handle successful new image acquisition
+     /**
+     * Feature :- Acquisition of image
+     * 
+     * Discription :- This function will handle successful acquisition of 
+     * an new image
+     */
     private void processImageRequestResult(Uri resultImageUri) {
         Bitmap scaledResultImageBitmap = getScaledImageBitmap(resultImageUri);
 
@@ -174,6 +180,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Function to create an intent to take an image from the gallery
+     /**
+     * Feature :- Take Photo from gallrey
+     * 
+     * Discription :- This function will create an intent to take photo from
+     * an gallrey for user
+     */
     private void pickFromGallery() {
         Intent intent = new Intent(Intent.ACTION_PICK);
         intent.setType("image/*");
@@ -181,6 +193,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Function to create an intent to take a photo
+    /**
+     * Feature :- Take Photo
+     * 
+     * Discrption :- This function will create an intent to take photo from
+     * an camera for user
+     */
     private void takePhoto() {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         // Make sure that there is activity of the camera that processes the intent
@@ -203,7 +221,11 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
+     /**
+     * Feature :- change sccale of an image
+     * 
+     * Discreption :- This function will change scale of an image
+     */
     private Bitmap getScaledImageBitmap(Uri imageUri) {
         Bitmap scaledImageBitmap = null;
 
@@ -248,6 +270,12 @@ public class MainActivity extends AppCompatActivity {
 
         return scaledImageBitmap;
     }
+    
+    /**
+     * Feature :- change sccale of an image
+     * 
+     * Discreption :- This function will change scale of an image
+     */
 
     private void detectFaces(Bitmap imageBitmap) {
         FirebaseVisionFaceDetectorOptions faceDetectorOptions =
@@ -382,6 +410,12 @@ public class MainActivity extends AppCompatActivity {
                                     }
                                 });
     }
+    
+     /**
+     * Feature :- Classify emotions
+     * 
+     * Discreption :- This function will classify emotions on the faces
+     */
 
     private void classifyEmotions(Bitmap imageBitmap, int faceId) {
         Map<String, Float> result = mClassifier.classify(imageBitmap, true);
@@ -445,6 +479,11 @@ responses.setVisibility(View.VISIBLE);
     }
 
     // Get a rectangle that lies inside the image area
+     /**
+     * Feature :- Get Rectangle
+     * 
+     * Discreption :- This Fucntion will create rectangle around faces
+     */
     private Rect getInnerRect(Rect rect, int areaWidth, int areaHeight) {
         Rect innerRect = new Rect(rect);
 
