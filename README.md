@@ -33,7 +33,7 @@ Out of these all emotion recognitions, I selected Happy, Neutral & Surprise as a
 
 * video link
 
-<a href="https://youtu.be/OZNkSERFPIM" target="_blank">~~~**Watch Demo Video**~~~</a>
+<a href="https://youtu.be/OZNkSERFPIM" target="_blank">**Watch Demo Video**</a>
 
 
 * Download Android App
