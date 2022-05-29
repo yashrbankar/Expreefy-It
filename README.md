@@ -8,7 +8,6 @@
   
   ```bash
   $ git clone https://github.com/yashrbankar/Microsoft-Engage22.git
-  $ cd EmotionRecognition-master
 ```
 * Open EmotionRecognition-master Folder in Android Studio.
 
@@ -16,7 +15,7 @@
 <a href="https://github.com/yashrbankar" target="_blank">~~~Download Zip file~~~</a>
 * Open EmotionRecognition-master Folder in Android Studio.
 
-### Possible Error During Setup
+### Possible error during setup
 #### Type of error 
  ```bash
   Task 'wrapper' not found in project ':app'.
@@ -28,10 +27,12 @@
 
 ## 🔗 Links for project:
 
-*video link
+* video link
+
 <a href="https://github.com/yashrbankar" target="_blank">~~~**Watch Demo Video**~~~</a>
 
-*Download Android App
+
+* Download Android App
 
 <a href="https://github.com/yashrbankar" target="_blank">~~~**Download App**~~~</a>
 
