@@ -38,7 +38,7 @@ Out of these all emotion recognitions, I selected Happy, Neutral & Surprise as a
 
 * Download Android App
 
-<a href="https://drive.google.com/drive/folders/1LIFcskxFhfe2Knc6tHj6EG_mi69Z7aht?usp=sharing" target="_blank">~~~**Download App**~~~</a>
+<a href="https://drive.google.com/drive/folders/1LIFcskxFhfe2Knc6tHj6EG_mi69Z7aht?usp=sharing" target="_blank">**Download App**</a>
 
 
 ## 🌐 Flow Chart 
@@ -79,7 +79,7 @@ Priority scale : P5 (maximum) to P1 (Least)
 | 3    | P4: Take img from gallery , P5: Firebase ml deep learning  , P3:Expression detection, P5: indivible , P4: Final Pie Result    |     Problem statement tasking completed|
 
 
-## 🚩 Future Scopes:-
+##  Future Scopes:-
 Feature | Explanation
 ------------ | -------------
 Real time Detection using Cam | Using Camera of the Auditorium I will have to capture videos and to provide you the accurate feedback     
