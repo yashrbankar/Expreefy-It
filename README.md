@@ -1,9 +1,9 @@
-### 🚩 Overview 
+### :pushpin: Overview 
 In Auditorium and Online meets like Microsoft Teams, After ending the session students gives feedback manually using different online forms. This forms takes s
 students identities like their Email id, Name and other Informations. For this reason students always gives positive feedback. To avoid this I built an Android Application that recognizes users facial emotions using Tensorflow lite Library. This gives us recognition of an emotions as Happy, Sad, Neutral, Surprise, Angry, Fear, Disgust.
 Out of these all emotion recognitions, I selected Happy, Neutral & Surprise as a positive response and Sad, Angry, Fear & Disgust for the negative response.
 
-## 🚩 Installation/Environment Setup
+## :pushpin: Installation/Environment Setup
 
  ### Method 1:  Clone App 
   
@@ -58,10 +58,10 @@ Out of these all emotion recognitions, I selected Happy, Neutral & Surprise as a
 | `FireBase` | `ml api` | **Required**. for Emotion dectection (Deep learning)|
 
 
-##  🚩 Technologies used:
+##  :pushpin: Technologies used:
 <p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
 
- ## 🚩 Agile methology and workflow:
+ ## :pushpin: Agile methology and workflow:
 Agile methology was followed by implementation of sprint of 4 days in a week , continuous integration and developmet.
 Work was proceeded in different branches using git version control and successfully developed patches were merged to ruling branch . Customer view points and Teams as an inspiration was taken in mind to develop this project. Bugs were solved according to priority scale
 Priority scale : P5 (maximum) to P1 (Least)
