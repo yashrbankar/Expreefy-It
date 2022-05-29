@@ -13,7 +13,7 @@
 * Open EmotionRecognition-master Folder in Android Studio.
 
 ### Method 2 : Using Zip file 
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank">~~~Download Zip file~~~</a>
+<a href="https://github.com/yashrbankar" target="_blank">~~~Download Zip file~~~</a>
 * Open EmotionRecognition-master Folder in Android Studio.
 
 ### Possible Error During Setup
@@ -29,16 +29,16 @@
 ## 🔗 Links for project:
 
 *video link
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank">~~~**Watch Demo Video**~~~</a>
+<a href="https://github.com/yashrbankar" target="_blank">~~~**Watch Demo Video**~~~</a>
 
 *Download Android App
 
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank">~~~**Download App**~~~</a>
+<a href="https://github.com/yashrbankar" target="_blank">~~~**Download App**~~~</a>
 
 
 ## 🌐 Flow Chart 
 
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:6936162661906669568/" target="_blank" rel="noreferrer noopener" >
+<a href="https://github.com/yashrbankar" target="_blank" rel="noreferrer noopener" >
 <img src="r-img/flowchart.png" alt="download">
  </img>
  </a>
