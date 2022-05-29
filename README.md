@@ -1,3 +1,7 @@
+### 🚩 Overview 
+In Auditorium and Online meets like Microsoft Teams, After ending the session students gives feedback manually using different online forms. This forms takes s
+students identities like their Email id, Name and other Informations. For this reason students always gives positive feedback. To avoid this I built an Android Application that recognizes users facial emotions using Tensorflow lite Library. This gives us recognition of an emotions as Happy, Sad, Neutral, Surprise, Angry, Fear, Disgust.
+Out of these all emotion recognitions, I selected Happy, Neutral & Surprise as a positive response and Sad, Angry, Fear & Disgust for the negative response.
 
 ## 🚩 Installation/Environment Setup
 
@@ -46,7 +50,7 @@
  
  
  
- # GIF Feature
+ #Feature
  
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
@@ -76,7 +80,7 @@ Real time Detection using Cam | Using Camera of the Auditorium I will have to ca
 Send Code integration | A microsoft teams inspired feature of feedback for developers to work in collabrative environment and code together.
 
 Thank you ! Microsoft Team for such a wonderful mentorship program ❤️
-You can also check [My weekly record during this program](https://docs.google.com/document/d/17KTl62Htz-D9crD_tCRvy3G41SqS5Lw5Vvjkq5Fu2qM/edit?usp=sharing)
+You can also check [My weekly record during this program]("https://github.com/yashrbankar")
 
 
 
